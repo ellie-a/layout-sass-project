@@ -24,6 +24,19 @@ li {
   list-style: none;
 }
 
+li:nth-of-type(n+6) {
+  @media #{$brk-phone} {
+    display: none;
+  }
+}
+li:nth-of-type(n+8) {
+  @media #{$brk-sm} {
+    display: none;
+  }
+}
+
+
+
 .nav-bar {
   background-color: #005689;
 
