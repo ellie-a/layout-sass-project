@@ -1,0 +1,9 @@
+// Colors
+$grey : #F5F5F5;
+
+// Media Queries
+$brk-sm : '(max-width: 884px)';
+$brk-md : '(min-width: 885px) and (max-width: 1115px)';
+$brk-lg : '(min-width: 1116px)';
+//to fix float of text in phone veiw
+$brk-phone : '(max-width: 460px)';

@@ -1,0 +1,15 @@
+.content {
+  @include size(100%, 656px, 20px);
+  margin-left: auto;
+  margin-right: auto;
+
+  @media #{$brk-md} {
+    @include size(100%, $padding: 20px);
+    margin-left: auto;
+    margin-right: auto;
+   }
+
+  @media #{$brk-sm} {
+    @include size(100%, 100%, $margin: none);
+  }
+}
