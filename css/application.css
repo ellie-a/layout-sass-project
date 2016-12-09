@@ -97,7 +97,8 @@ html {
         margin-right: 0; } }
   @media (max-width: 884px) {
     .section-one .article-two img {
-      float: left; } }
+      float: left;
+      margin-right: 10px; } }
   @media (max-width: 460px) {
     .section-one .article-two img {
       float: none;
@@ -113,6 +114,55 @@ html {
   @media (min-width: 885px) and (max-width: 1115px), (min-width: 1116px) {
     .section-one .article-two h3 {
       margin: 5px; } }
+
+@media (min-width: 1116px) {
+  .section-two {
+    width: 75%;
+    margin-top: 200px; } }
+@media (min-width: 885px) and (max-width: 1115px) {
+  .section-two {
+    width: 85%;
+    margin-top: 50px; } }
+@media (max-width: 884px) {
+  .section-two {
+    width: 100%;
+    margin-top: 10px; } }
+.section-two .article-three, .section-two .article-four, .section-two .article-five, .section-two .article-six {
+  background: #F5F5F5;
+  background: #F5F5F5;
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 23.23176%;
+  width: 198px;
+  margin-top: 5%; }
+  .section-two .article-three:last-child, .section-two .article-four:last-child, .section-two .article-five:last-child, .section-two .article-six:last-child {
+    margin-right: 0; }
+  @media (max-width: 884px) {
+    .section-two .article-three, .section-two .article-four, .section-two .article-five, .section-two .article-six {
+      float: left;
+      display: block;
+      margin-right: 2.35765%;
+      width: 100%;
+      margin-top: 20px; }
+      .section-two .article-three:last-child, .section-two .article-four:last-child, .section-two .article-five:last-child, .section-two .article-six:last-child {
+        margin-right: 0; } }
+  @media (max-width: 884px) {
+    .section-two .article-three img, .section-two .article-four img, .section-two .article-five img, .section-two .article-six img {
+      float: left;
+      margin-right: 10px; } }
+  @media (max-width: 460px) {
+    .section-two .article-three img, .section-two .article-four img, .section-two .article-five img, .section-two .article-six img {
+      float: none;
+      width: 30%; } }
+  @media (min-width: 885px) and (max-width: 1115px), (min-width: 1116px) {
+    .section-two .article-three img, .section-two .article-four img, .section-two .article-five img, .section-two .article-six img {
+      width: 100%; } }
+  @media (max-width: 460px) {
+    .section-two .article-three h3, .section-two .article-four h3, .section-two .article-five h3, .section-two .article-six h3 {
+      float: right;
+      font-size: .9em;
+      width: 65%; } }
 
 .content {
   width: 100%;
